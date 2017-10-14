@@ -92,3 +92,50 @@ body {
   color: #0088cc;
 }
 
+.clickable-penelope {
+  cursor: pointer;
+}
+
+.clickable-penelope:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-ash {
+  cursor: pointer;
+}
+
+.clickable-ash:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-oliver {
+  cursor: pointer;
+}
+
+.clickable-oliver:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-oliver {
+  cursor: pointer;
+}
+
+.clickable-oliver:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-moon {
+  cursor: pointer;
+}
+
+.clickable-moon:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+
+
