@@ -1,0 +1,94 @@
+.jumbotron {
+	margin: 5px auto;
+	/*padding: 30px;*/
+	background: url("../img/jumbotronbackground.jpg") no-repeat center center;
+}
+
+#title {
+	color: #7a5e73;
+	letter-spacing: .3em;
+}
+#register {
+	width: 25%;
+	float: right;
+}
+
+.directory {
+  cursor: pointer;
+}
+
+.directory:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+#aboutLower {
+	padding-top: 20px;
+}
+
+form {
+	padding-top: 20px;
+}
+
+img {
+    height:250px;
+    width: 95%;
+}
+
+i.fa-star {
+	font-size: 50px;
+}
+
+.row {
+	padding-top: 20px;
+}
+
+body {
+	padding: 10px;
+	background-color: #ce233d;
+}
+
+/*When clickable-(animal name) is clicked, More info and a different image of the animal will show*/
+
+.more-info {
+	display: none;
+}
+
+/*For CLicking more info. Cant figure out a way where it can all be just one class*/
+
+.clickable-henry {
+  cursor: pointer;
+}
+
+.clickable-henry:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-allie {
+  cursor: pointer;
+}
+
+.clickable-allie:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-carlos {
+  cursor: pointer;
+}
+
+.clickable-carlos:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-noodle {
+  cursor: pointer;
+}
+
+.clickable-noodle:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
