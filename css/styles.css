@@ -172,3 +172,39 @@ body {
   text-decoration: underline;
   color: #0088cc;
 }
+
+.clickable-raulf {
+  cursor: pointer;
+}
+
+.clickable-raulf:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-peep {
+  cursor: pointer;
+}
+
+.clickable-peep:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-pinky {
+  cursor: pointer;
+}
+
+.clickable-pinky:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
+
+.clickable-tickles {
+  cursor: pointer;
+}
+
+.clickable-tickles:hover {
+  text-decoration: underline;
+  color: #0088cc;
+}
