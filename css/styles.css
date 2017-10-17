@@ -66,9 +66,9 @@ body {
 
 /*When clickable-(animal name) is clicked, More info and a different image of the animal will show*/
 
-.more-info {
+/*.more-info {
 	display: none;
-}
+}*/
 
 /*For CLicking more info. Cant figure out a way where it can all be just one class*/
 
@@ -81,6 +81,10 @@ body {
   color: #0088cc;
 }
 
+.more-info-henry {
+	display: none;
+}
+
 .clickable-allie {
   cursor: pointer;
 }
@@ -88,6 +92,10 @@ body {
 .clickable-allie:hover {
   text-decoration: underline;
   color: #0088cc;
+}
+
+.more-info-allie {
+	display: none;
 }
 
 .clickable-carlos {
@@ -99,6 +107,10 @@ body {
   color: #0088cc;
 }
 
+.more-info-carlos {
+	display: none;
+}
+
 .clickable-noodle {
   cursor: pointer;
 }
@@ -106,6 +118,10 @@ body {
 .clickable-noodle:hover {
   text-decoration: underline;
   color: #0088cc;
+}
+
+.more-info-noodle {
+	display: none;
 }
 
 .clickable-penelope {
@@ -117,6 +133,10 @@ body {
   color: #0088cc;
 }
 
+.more-info-penelope {
+	display: none;
+}
+
 .clickable-ash {
   cursor: pointer;
 }
@@ -126,13 +146,8 @@ body {
   color: #0088cc;
 }
 
-.clickable-oliver {
-  cursor: pointer;
-}
-
-.clickable-oliver:hover {
-  text-decoration: underline;
-  color: #0088cc;
+.more-info-ash {
+	display: none;
 }
 
 .clickable-oliver {
@@ -143,6 +158,11 @@ body {
   text-decoration: underline;
   color: #0088cc;
 }
+
+.more-info-oliver {
+	display: none;
+}
+
 
 .clickable-moon {
   cursor: pointer;
@@ -151,6 +171,10 @@ body {
 .clickable-moon:hover {
   text-decoration: underline;
   color: #0088cc;
+}
+
+.more-info-moon {
+	display: none;
 }
 
 .clickable-bun {
@@ -162,6 +186,10 @@ body {
   color: #0088cc;
 }
 
+.more-info-bun {
+	display: none;
+}
+
 .clickable-puff {
   cursor: pointer;
 }
@@ -169,6 +197,10 @@ body {
 .clickable-puff:hover {
   text-decoration: underline;
   color: #0088cc;
+}
+
+.more-info-puff {
+	display: none;
 }
 
 .clickable-cream {
@@ -180,6 +212,10 @@ body {
   color: #0088cc;
 }
 
+.more-info-cream {
+	display: none;
+}
+
 .clickable-lily {
   cursor: pointer;
 }
@@ -187,6 +223,10 @@ body {
 .clickable-lily:hover {
   text-decoration: underline;
   color: #0088cc;
+}
+
+.more-info-lily {
+	display: none;
 }
 
 .clickable-raulf {
@@ -198,6 +238,10 @@ body {
   color: #0088cc;
 }
 
+.more-info-raulf {
+	display: none;
+}
+
 .clickable-peep {
   cursor: pointer;
 }
@@ -205,6 +249,10 @@ body {
 .clickable-peep:hover {
   text-decoration: underline;
   color: #0088cc;
+}
+
+.more-info-peep {
+	display: none;
 }
 
 .clickable-pinky {
@@ -216,6 +264,10 @@ body {
   color: #0088cc;
 }
 
+.more-info-pinky {
+	display: none;
+}
+
 .clickable-tickles {
   cursor: pointer;
 }
@@ -223,4 +275,8 @@ body {
 .clickable-tickles:hover {
   text-decoration: underline;
   color: #0088cc;
+}
+
+.more-info-tickles {
+	display: none;
 }
