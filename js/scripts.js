@@ -18,5 +18,11 @@ $("a").on('click', function(event) {
   });
 
 
-
-  
+$("form#register").submit(function(event) {
+  event.preventDefault();
+  userInput = $("input#signUp").val();
+  console.log(userInput);
+  $("form").hide();
+  $("#greeting").show();
+  $("#userInput").text(userInput);
+});
