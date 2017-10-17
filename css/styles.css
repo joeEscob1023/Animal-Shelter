@@ -5,9 +5,11 @@
 }
 
 #title {
-	color: #7a5e73;
 	letter-spacing: .3em;
 }
+
+
+
 #register {
 	width: 25%;
 	float: right;
@@ -17,9 +19,17 @@
   cursor: pointer;
 }
 
+a:link {
+	color: #afa1a4;
+}
+
+a:visited {
+	color: #afa1a4;
+}
+
 .directory:hover {
   text-decoration: underline;
-  color: #0088cc;
+  color: #afa1a4;
 }
 
 #aboutLower {
