@@ -22,7 +22,7 @@ $("a").on('click', function(event) {
 // Register form.
 $("form#register").submit(function(event) {
   event.preventDefault();
-  userInput = $("input#signUp").val();
+  var userInput = $("input#signUp").val();
   console.log(userInput);
   $("form").hide();
   $("#greeting").show();
@@ -33,6 +33,29 @@ $(".clickable-henry").click(function() {
   $(".initially-showing-henry").slideToggle();
   $(".more-info-henry").slideToggle();
 });
+
+var animalNames = [
+  'henry', 'allie', 'carlos', 'noodle', 
+  'penelope', 'ash', 'oliver', 'moon', 
+  'bun', 'puff', 'cream', 'lily', 
+  'raulf', 'peep', 'pinky', 'tickles'
+];
+
+animalNames.forEach(function(name) {
+  $(`button#${name}`).click(function() {
+    var value = $(`button#${name}`).val();
+    console.log(value);
+  });
+
+//trying to get this to work so I dont have to write it over and over again, it half way works, but until i figure it out, have to be repetitive.
+
+//   $(`.clickable-${name}`).click(function() {
+//   $(`.initially-showing-${name}`).slideToggle();
+//   $(`more-info-${name}`).slideToggle();
+//   console.log(name);
+// });
+});
+
 
 $(".clickable-allie").click(function() {
   $(".initially-showing-allie").slideToggle();
@@ -109,6 +132,8 @@ $(".clickable-tickles").click(function() {
   $(".initially-showing-tickles").slideToggle();
   $(".more-info-tickles").slideToggle();
 });
+
+
 
 
 
