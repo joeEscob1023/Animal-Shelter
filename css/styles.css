@@ -64,6 +64,17 @@ body {
 	background-color: #ce233d;
 }
 
+.centerButton button {
+	display: block; 
+	margin: 0 auto;
+  cursor: pointer;
+  background-color: #ce233d;
+}
+
+#confirmation {
+	display: none;
+}
+
 /*When clickable-(animal name) is clicked, More info and a different image of the animal will show*/
 
 /*.more-info {
