@@ -19,20 +19,33 @@ $("a").on('click', function(event) {
     } 
   });
 
+function User(userName) {
+  this.userName = userName;
+}
+
+User.prototype.userName = function() {
+  return this.userName;
+}
+
+function Animal(animalName) {
+  this.animalName = animalName; 
+}
+
+Animal.prototype.adoptionForm = function() {
+  return this.animalName;
+}
+
 // Register form.
 $("form#register").submit(function(event) {
   event.preventDefault();
   var userInput = $("input#signUp").val();
-  console.log(userInput);
   $("form").hide();
   $("#greeting").show();
   $("#userInput").text(userInput);
+  var newUser = new User(userInput);
+  // testing ---> console.log(newUser);
 });
 
-$(".clickable-henry").click(function() {
-  $(".initially-showing-henry").slideToggle();
-  $(".more-info-henry").slideToggle();
-});
 
 var animalNames = [
   'henry', 'allie', 'carlos', 'noodle', 
@@ -43,8 +56,11 @@ var animalNames = [
 
 animalNames.forEach(function(name) {
   $(`button#${name}`).click(function() {
-    var value = $(`button#${name}`).val();
-    console.log(value);
+    var animalName = $(`button#${name}`).val();
+    console.log(animalName);
+    $(this).css("color", 'yellow');
+    var adoptionRequest = new Animal(animalName);
+    console.log(adoptionRequest);
   });
 
 //trying to get this to work so I dont have to write it over and over again, it half way works, but until i figure it out, have to be repetitive.
@@ -56,6 +72,10 @@ animalNames.forEach(function(name) {
 // });
 });
 
+$(".clickable-henry").click(function() {
+  $(".initially-showing-henry").slideToggle();
+  $(".more-info-henry").slideToggle();
+});
 
 $(".clickable-allie").click(function() {
   $(".initially-showing-allie").slideToggle();
